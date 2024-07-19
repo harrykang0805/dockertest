@@ -6,7 +6,7 @@ USER root
 RUN apt-get update && apt-get install -y default-mysql-client
 
 # Set the argument for the JAR file location
-ARG JAR_FILE=build/libs/student-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=build/libs/simple1-0.0.1-SNAPSHOT.jar
 
 # Copy the JAR file to the container
 COPY ${JAR_FILE} app.jar
