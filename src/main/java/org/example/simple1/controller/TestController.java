@@ -18,7 +18,7 @@ public class TestController {
     @GetMapping("/")
     public MemberDto test() {
         MemberDto memberDto = new MemberDto();
-        memberDto.setName("갓성진 킹수정 홍신 갓지");
+        memberDto.setName("갓성진 킹수정 홍신 갓지 짱!");
         memberDto.setAge(1234);
 
         memberRepositoty.save(new Member("member1"));
