@@ -19,7 +19,7 @@ public class TestController {
     public MemberDto test() {
         MemberDto memberDto = new MemberDto();
         memberDto.setName("갓성진 킹수정 홍신 갓지 짱!");
-        memberDto.setAge(12345);
+        memberDto.setAge(1234567);
 
         memberRepositoty.save(new Member("member1"));
 
